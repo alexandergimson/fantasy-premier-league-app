@@ -1,0 +1,170 @@
+/* PlayerCard.css */
+
+.player-card {
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-top: 0px solid #ccc;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.player-card div::first-child {
+  width: 100%;
+  cursor: pointer;
+  border-top: 1px solid #ccc;
+  border-left: 0px;
+  border-right: 0px;  
+}
+
+.player-list {
+  max-height: auto;
+  overflow-y: auto;
+}
+
+
+.player-card img {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  height: 24px;
+}
+
+.player-card .info {
+  display: flex;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.filters-container {
+  justify-content: space-between;
+}
+
+.filter-group { 
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.filter-group label {
+  display: block;
+}
+
+select {
+  display: block;
+  width: 95%;
+  position: relative;
+  z-index: 90;
+  margin-top: -20px;
+  padding: 20px 0px 0px;
+  border-radius: 1px;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  border: 0px;
+  border-bottom: 1px solid #ccc;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23131313%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.7rem top 50%;
+  background-size: 0.65rem auto;
+  outline: none;
+  font-family: 'Montserrat', 'sans-serif';
+}
+
+label {
+  font-family: 'Montserrat', 'sans-serif';
+}
+.team-selection-container {
+  display: flex;
+  max-width: 1220px;
+  margin: auto;
+}
+
+.selected-players,
+.available-players {
+  margin: 0 1rem;
+}
+
+.selected-players {
+  width: 75%;
+}
+
+.available-players {
+  width: 25%;
+}
+
+.pr10 {
+  padding-right: 10px;
+}
+
+.fb13 {
+  flex-basis: 13%;
+}
+
+.tac {
+  text-align: center;
+  padding-right: 7px;
+}
+
+.truncate10 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 10ch;
+  /* Adjust the max-width as needed */
+}
+
+.truncate15 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 15ch;
+  /* Adjust the max-width as needed */
+}
+
+.selectedname {
+  background: #37003c;
+}
+
+.selectedprice {
+  background-color: #5dcd8a;
+}
+
+.selectedname p {
+  font-size: 11px;
+  color: white;
+  font-weight: 500;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding: 2px 0 2px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.selectedprice p {
+  font-size: 10px;
+  font-weight: 500;
+  padding: 2px;
+}
+
+.fb13 p {
+  font-size: 14px;
+}
+

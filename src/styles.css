@@ -1,0 +1,111 @@
+.remove-button {
+  background-color: #ff6961;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .team-selection-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.warning-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.available-players {
+  max-width: 400px;
+  box-shadow: 0 0 5px 3px #ccc;
+}
+
+.available-players .player-card {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.available-players .player-card img {
+  height: 35px;
+}
+
+.available-players .player-card .player-info {
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 5px;
+  border-right: 1px solid lightgrey;
+}
+
+.formation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.line {
+  display: flex;
+  padding: 2rem 0 2rem 0;
+  height: 100px;
+}
+
+.square-card {
+  padding: 0px 5px 0px 5px;
+  height: 122px;
+  width: 177px
+}
+
+.square-card img {
+  height: 80px;
+  margin: auto;
+  display: block;
+  padding-bottom: 5px;
+}
+
+.square-card p {
+  text-align: center;
+}
+
+
+.cross {
+  cursor: pointer;
+  padding-left: 35px;
+  display: inline-flex;
+}
+
+h3,
+p {
+  margin: 0px;
+}
+
+h3 {
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Montserrat', 'sans-serif';
+}
+
+.truncate15 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 15ch;
+  /* Adjust the max-width as needed */
+}
+
+
+.ma {
+  margin: auto;
+}
